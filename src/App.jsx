@@ -1,11 +1,22 @@
 import profile from './assets/profile.jpeg'
 import './App.css'
 
+function Navbar(){
+  return (
+    <>
+      Navbar
+    </>
+  )
+}
+
 function App() {
   return (
     <>
-      <img src={profile} className="logo" /><br/>
-      Al Waidah
+      <div className='root'>
+      <Navbar /> <br/> 
+        <img src={profile} className="logo" /><br/>
+        Al Waidah
+      </div>
     </>
   )
 }
