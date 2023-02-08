@@ -3,6 +3,14 @@ import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import './App.css'
 
+function Navbar(){
+  return (
+    <>
+      Navbar
+    </>
+  )
+}
+
 function App() {
   return (
     <BrowserRouter>
