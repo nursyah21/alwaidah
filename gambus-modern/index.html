@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Al Waidah</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script defer src="/static/script.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class='navbar' role="navigation" aria-label='main navigation' >
+      <div class='navbar-brand'>
+        <a class='navbar-item' href='/'>
+          <img src="/static/favicon.png" width=100 height=10/>
+        </a>
+
+        <button onClick="navFunc()" role="button" class="navbar-burger" aria-label="menu" aria-expanded="true" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <!-- "Pelatih", "Recording", "Berita", "Gambus Modern", "Gambus Tradisional" -->
+      <div id="navbar" class="navbar-menu">
+        <div class='navbar-end'>
+          <a href="/pelatih" class='navbar-item'>Pelatih</a>
+          <a href="/recording" class='navbar-item'>Recording</a>
+          <a href="/berita" class='navbar-item'>Berita</a>
+          <a href="/gambus-modern" class='navbar-item'>Gambus Modern</a>
+          <a href="/gambus-tradisional" class='navbar-item'>Gambus Tradisional</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home -->
+    <img src="/static/foto.jpg" class="logo" /><br/>
+    Al Waidah <br />
+      
+
+    <!-- footer -->
+    
+  </body>
+</html>
