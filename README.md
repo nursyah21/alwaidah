@@ -14,4 +14,4 @@ stack:
 
 tutorial:
 
-- [https://www.w3schools.com/](https://www.w3schools.com/) to learn html, css andjs
+- [https://www.w3schools.com/](https://www.w3schools.com/) to learn html, css and js

@@ -1,4 +1,4 @@
-html,.navbar,.navbar-menu{
+html,.navbar,.navbar-menu, .footer{
   /* if you want to change color */
   background-color: rgba(230, 248, 246, 0);
 }
@@ -54,9 +54,6 @@ html,.navbar,.navbar-menu{
     font-size: 0.95rem;
   }
 }
-.is-size-5{
-  font-size: 0rem;
-}
 
 @media only screen and (max-width: 440px) {
   .logo{
@@ -67,6 +64,9 @@ html,.navbar,.navbar-menu{
     width: 360px;
     height: 400px;
   } 
+  .is-size-5{
+    font-size: 1rem !important;
+  }
 }
 
 @media only screen and (max-width: 400px) {
