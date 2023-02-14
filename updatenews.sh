@@ -1,0 +1,1 @@
+python updatenews.py > static/data.js

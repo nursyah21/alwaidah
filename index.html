@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/static/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/static/bulma.min.css">
     <title>Al Waidah</title>
     <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/swiper-bundle.min.css" />
+    <script src="/static/swiper-bundle.min.js"></script>
+    <script src="/static/data.js"></script>
     <script defer src="/static/script.js"></script>
   </head>
   <body>
@@ -38,8 +41,27 @@
       </nav>
       
       <!-- profile -->
-      <div class="center">
-        <img src="/static/foto.jpg" class="logo" /><br/>
+      <div class="mt-4">
+        <div class="center">
+          <img src="/static/foto.jpg" class="logo" />
+        </div>
+
+        <!-- Slider main container -->
+        <div class="swiper my-4">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
       </div>
 
       <!-- footer -->

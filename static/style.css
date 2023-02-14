@@ -4,16 +4,63 @@
 
 .logo{
   border-radius: 100%;
-  height: 200px;
-  width: 200px;
+  height: 240px;
+  width: 240px;
   will-change: filter;
   transition: filter 300ms;
 }
 
 .logo:hover{
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 1em #646cffaa);
 }
 .center{
   display: flex;
   justify-content: center;
 }
+
+.swiper {
+  width: 720px;
+  height: 480px;
+}
+
+.image>img{
+  height: 360px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo{
+    width: 200px;
+    height: 200px;
+  }
+  .swiper {
+    width: 480px;
+    height: 480px;
+  } 
+  .image>img{
+    height: 240px;
+  }
+
+  .card-content>.content{
+    font-size: 0.95rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .logo{
+    width: 200px;
+    height: 200px;
+  }
+  .swiper {
+    width: 360px;
+    height: 400px;
+  } 
+}
+
+@media only screen and (max-width: 400px) {
+  .swiper {
+    width: 280px;
+    height: 400px;
+  } 
+}
+
+
