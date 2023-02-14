@@ -4,4 +4,14 @@
 
 [https://alwaidah.netlify.app](https://alwaidah.netlify.app)
 
-berita: https://www.demokrat.or.id/release/
+berita: [https://www.demokrat.or.id/release/](https://www.demokrat.or.id/release/)
+
+stack:
+
+- [https://bulma.io/](https://bulma.io/) css framework
+- [https://swiperjs.com/](https://swiperjs.com/) to create slider
+- [https://michalsnik.github.io/aos/](https://michalsnik.github.io/aos/) to create animated on scroll
+
+tutorial:
+
+- [https://www.w3schools.com/](https://www.w3schools.com/) to learn html, css andjs

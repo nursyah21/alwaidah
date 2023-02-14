@@ -8,8 +8,10 @@
     <title>Al Waidah</title>
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="/static/swiper-bundle.min.css" />
-    <script src="/static/swiper-bundle.min.js"></script>
-    <script src="/static/data.js"></script>
+    <link rel="stylesheet" href="/static/aos.css">
+    <script defer src="/static/swiper-bundle.min.js"></script>
+    <script defer src="/static/aos.js"></script>
+    <script src="/static/data.js"></script> 
     <script defer src="/static/script.js"></script>
   </head>
   <body>
@@ -40,14 +42,14 @@
         </div>
       </nav>
       
-      <!-- profile -->
-      <div class="mt-4">
-        <div class="center">
+      <!-- section1 profile -->
+      <div class="mt-4"> 
+        <div class="center" data-aos="flip-left">
           <img src="/static/foto.jpg" class="logo" />
-        </div>
+        </div> 
 
         <!-- Slider main container -->
-        <div class="swiper my-4">
+        <div class="swiper my-4" data-aos="fade-up">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
@@ -64,6 +66,26 @@
         </div>
       </div>
 
+      <!-- section2 profil alwaidah -->
+      <div class="columns m-3" >
+        <div class="column">
+          <figure class="image" data-aos="flip-left">
+            <img src="/static/logoaw.jpg" alt="" >
+          </figure>
+        </div>
+        <div class="column" data-aos="fade-right">
+          <p class="is-size-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad voluptas voluptatibus hic officia nemo ipsum, sit, itaque tempora dignissimos reiciendis cumque vero distinctio iure eligendi vel nesciunt doloribus blanditiis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure at vitae necessitatibus sapiente non, provident nostrum eligendi dignissimos veniam est voluptate, nisi voluptates quo libero excepturi? Inventore ex alias ullam.
+          </p>
+        </div>
+      </div>
+      <!-- section3 maps -->
+      <div data-aos="fade-up">
+        <div class="center">
+          <h1 class="is-size-1 has-text-weight-bold">Lokasi</h1>
+        </div>
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.626715266225!2d112.63663268680195!3d-7.169077478319542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd8019cf18c53af%3A0xecbef664b159675d!2sAl%20wahidah%20recording%20studio!5e0!3m2!1sen!2sid!4v1676407244044!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
       <!-- footer -->
     </div>
   </body>

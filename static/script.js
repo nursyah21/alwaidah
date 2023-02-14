@@ -1,3 +1,8 @@
+AOS.init({
+  delay: 50,
+  duration: 600
+})
+
 function navFunc(){
   document.getElementsByClassName('navbar-burger')[0].classList.toggle('is-active')
   document.getElementsByClassName('navbar-menu')[0].classList.toggle('is-active')
@@ -15,7 +20,7 @@ function navFunc(){
       </div>
       
       <div class="card-content">
-        <div class="content">
+        <div class="content is-size-5">
           <a href="${e.link}">
             ${e.title} <br>
           </a>
