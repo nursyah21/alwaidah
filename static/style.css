@@ -5,7 +5,9 @@ html,.navbar,.navbar-menu, .footer{
 .navbar{
   border-bottom: 1px solid #f5f5f5;
 }
-
+.navbar-menu{
+  font-size: 1.15rem;
+}
 
 .main{
   padding: 8px;
@@ -13,8 +15,8 @@ html,.navbar,.navbar-menu, .footer{
 
 .logo{
   border-radius: 100%;
-  height: 240px;
-  width: 240px;
+  height: 420px;
+  width: 420px;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -28,16 +30,39 @@ html,.navbar,.navbar-menu, .footer{
 }
 
 .swiper {
-  width: 720px;
-  height: 490px;
+  width: 100%;
+  height: 720px;
 }
 
-.image>img{
-  height: 360px;
+.swiper img{
+  height: 600px;
 }
+
 .maps{
   width: 100%;
   height: 600px;
+}
+
+.image2{
+  width: auto !important;
+  height: 400px !important;
+}
+.brand-footer{
+  width: 200px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo{
+    width: 360px;
+    height: 360px;
+  }
+  .swiper {
+    width: 740px;
+    height: 480px;
+  } 
+  .swiper img{
+    height: 340px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -56,6 +81,19 @@ html,.navbar,.navbar-menu, .footer{
   .card-content>.content{
     font-size: 0.95rem;
   }
+  .image2{
+    height: 300px !important;
+  }
+  footer .columns{
+    display: block !important;
+  }
+  .navbar-menu{
+    font-size: 1rem;
+  }
+  
+  figure.brand-footer{
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 440px) {
@@ -64,7 +102,7 @@ html,.navbar,.navbar-menu, .footer{
     height: 200px;
   }
   .swiper {
-    width: 360px;
+    width: 400px;
     height: 400px;
   } 
   .is-size-5{
