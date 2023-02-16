@@ -1,6 +1,6 @@
 html,.navbar,.navbar-menu, .footer{
   /* if you want to change color */
-  background-color: rgba(230, 248, 246, 0);
+  background-color: rgba(230, 248, 246, 1);
 }
 .navbar{
   border-bottom: 1px solid #f5f5f5;
