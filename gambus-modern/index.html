@@ -4,44 +4,113 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/static/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <title>Al Waidah</title>
+    <link rel="stylesheet" href="/static/bulma.min.css">
+    <title>Al Waidah | Gambus Modern</title>
+    <link rel="stylesheet" href="/static/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/static/aos.css">
     <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/swiper-bundle.min.js"></script>
+    <script src="/static/aos.js"></script>
+    <script src="/static/data.js"></script> 
     <script defer src="/static/script.js"></script>
   </head>
   <body>
-    <!-- navbar -->
-    <nav class='navbar' role="navigation" aria-label='main navigation' >
-      <div class='navbar-brand'>
-        <a class='navbar-item' href='/'>
-          <img src="/static/favicon.png" width=100 height=10/>
-        </a>
+    <div class="container">
+      <!-- navbar -->
+      <nav class='navbar' role="navigation" aria-label='main navigation' >
+        <div class='navbar-brand'>
+          <a class='navbar-item' href='/'>
+            <img src="/static/favicon.png" width=100/>
+          </a>
+  
+          <button onClick="navFunc()" role="button" class="navbar-burger" aria-label="menu" aria-expanded="true" data-target="navbar">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </button>
+        </div>
+        <!-- "Pelatih", "Recording", "Berita", "Gambus Modern", "Gambus Tradisional" -->
+        <div id="navbar" class="navbar-menu">
+          <div class='navbar-end'>
+            <a href="/pelatih" class='navbar-item'>Pelatih</a>
+            <a href="/recording" class='navbar-item'>Recording</a>
+            <a href="/berita" class='navbar-item'>Berita</a>
+            <a href="/gambus-modern" class='navbar-item'>Gambus Modern</a>
+            <a href="/gambus-tradisional" class='navbar-item'>Gambus Tradisional</a>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- section1 profile -->
+      <div class="mt-4"> 
+        <div class="center">
+          <div style="display: block; text-align: center;">
+            <h1 style="text-align: center;">Gambus Modern</h1>
+          </div>
+        </div> 
 
-        <button onClick="navFunc()" role="button" class="navbar-burger" aria-label="menu" aria-expanded="true" data-target="navbar">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </button>
-      </div>
+        <hr>
+        <!-- Slider main container -->
+        <div class="swiper my-4" data-aos="fade-up">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
 
-      <!-- "Pelatih", "Recording", "Berita", "Gambus Modern", "Gambus Tradisional" -->
-      <div id="navbar" class="navbar-menu">
-        <div class='navbar-end'>
-          <a href="/pelatih" class='navbar-item'>Pelatih</a>
-          <a href="/recording" class='navbar-item'>Recording</a>
-          <a href="/berita" class='navbar-item'>Berita</a>
-          <a href="/gambus-modern" class='navbar-item'>Gambus Modern</a>
-          <a href="/gambus-tradisional" class='navbar-item'>Gambus Tradisional</a>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
         </div>
       </div>
-    </nav>
 
-    <!-- home -->
-    <img src="/static/foto.jpg" class="logo" /><br/>
-    Al Waidah <br />
-      
-
-    <!-- footer -->
-    
+      <!-- footer -->
+      <footer class="footer" data-aos="fade-up">
+        <hr>
+        <div class="content has-text-centered">
+          <p class="is-size-5"><strong>Al waidah Gresik</strong></p>
+          <div class="columns">
+            <div class="column center">
+              <figure class="image brand-footer" >
+                <img src="/static/favicon.png" alt="">
+              </figure>
+            </div>
+            <div class="column center" style="display: block;">
+              <p><b>Perusahaan</b></p>
+              <p><a href="#">tentang</a></p>
+              <p><a href="#">produk</a></p>
+            </div>
+            <div class="column center" style="display: block;">
+              <p><b>Gabung</b></p>
+              <p><a href="#">mitra gambus</a></p>
+              <p><a href="#">mitra studio</a></p>
+            </div>
+            <div class="column center" style="display: block;">
+              <p><b>Karir</b></p>
+              <p><a href="#">pelajar</a></p>
+              <p><a href="#">profesional</a></p>
+            </div>
+            <div class="column center" style="display: block;">
+              <p><b>Hubungi kami</b></p>
+              <p><a href="#">bantuan</a></p>
+              <p><a href="#">lokasi kami</a></p>
+            </div>
+            <div class="column center" style="display: block;">
+              <p><b>Cari tau berita terbaru</b></p>
+              <div>
+                <a href="#"><img src="/static/instagram.jpg" alt=""></a>
+                <a href="#"><img src="/static/facebook.jpg" alt=""></a>
+                <a href="#"><img src="/static/twitter.jpg" alt=""></a>
+                <a href="#"><img src="/static/youtube.jpg" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

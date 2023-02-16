@@ -51,6 +51,11 @@ html,.navbar,.navbar-menu, .footer{
   width: 200px;
 }
 
+h1{
+  font-size: 100px;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 1024px) {
   .logo{
     width: 360px;
@@ -93,6 +98,9 @@ html,.navbar,.navbar-menu, .footer{
   
   figure.brand-footer{
     display: block;
+  }
+  h1{
+    font-size: 50px;
   }
 }
 

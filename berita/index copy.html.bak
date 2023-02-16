@@ -5,10 +5,13 @@
     <link rel="icon" type="image/svg+xml" href="/static/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/static/bulma.min.css">
-    <title>Al Waidah | Gambus Tradisional</title>
+    <title>Al Waidah</title>
     <link rel="stylesheet" href="/static/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/static/aos.css">
     <link rel="stylesheet" href="/static/style.css">
+    <script>
+      window.location = "https://www.demokrat.or.id/release/"
+    </script>
     <script src="/static/swiper-bundle.min.js"></script>
     <script src="/static/aos.js"></script>
     <script src="/static/data.js"></script> 
@@ -43,10 +46,8 @@
       
       <!-- section1 profile -->
       <div class="mt-4"> 
-        <div class="center">
-          <div style="display: block;">
-            <h1 style="text-align: center;">Gambus Tradisional</h1>
-          </div>
+        <div class="center" >
+          <img src="/static/foto.jpg" class="logo" />
         </div> 
 
         <hr>
@@ -66,6 +67,28 @@
           <!-- If we need scrollbar -->
           <div class="swiper-scrollbar"></div>
         </div>
+      </div>
+      
+      <!-- section2 profil alwaidah -->
+      <div class="columns m-3" >
+        <div class="column">
+          <figure class="image" data-aos="flip-left">
+            <img src="/static/logoaw.jpg" alt="" class="image2">
+          </figure>
+        </div>
+        <div class="column" data-aos="fade-right">
+          <p class="is-size-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ad voluptas voluptatibus hic officia nemo ipsum, sit, itaque tempora dignissimos reiciendis cumque vero distinctio iure eligendi vel nesciunt doloribus blanditiis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure at vitae necessitatibus sapiente non, provident nostrum eligendi dignissimos veniam est voluptate, nisi voluptates quo libero excepturi? Inventore ex alias ullam.
+          </p>
+        </div>
+      </div>
+
+      <!-- section3 maps -->
+      <div class="m-3" data-aos="fade-up" style="height: 600px;">
+        <div class="center">
+          <h1 class="is-size-3 has-text-weight-bold">Lokasi</h1>
+        </div>
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.626715266225!2d112.63663268680195!3d-7.169077478319542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd8019cf18c53af%3A0xecbef664b159675d!2sAl%20wahidah%20recording%20studio!5e0!3m2!1sen!2sid!4v1676407244044!5m2!1sen!2sid" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
       <!-- footer -->
