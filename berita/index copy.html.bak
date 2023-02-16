@@ -125,10 +125,10 @@
             <div class="column center" style="display: block;">
               <p><b>Cari tau berita terbaru</b></p>
               <div>
-                <a href="#"><img src="/static/instagram.jpg" alt=""></a>
-                <a href="#"><img src="/static/facebook.jpg" alt=""></a>
-                <a href="#"><img src="/static/twitter.jpg" alt=""></a>
-                <a href="#"><img src="/static/youtube.jpg" alt=""></a>
+                 <a href="#"><img src="/static/instagram.svg" alt=""></a>
+                <a href="#"><img src="/static/facebook.svg" alt=""></a>
+                <a href="#"><img src="/static/twitter.svg" alt=""></a>
+                <a href="#"><img src="/static/youtube.svg" alt=""></a>
               </div>
             </div>
           </div>
